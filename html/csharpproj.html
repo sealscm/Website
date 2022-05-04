@@ -2,11 +2,20 @@
 <html lang="en">
 
     <head>
-        <title>Home Page</title>
+        <!--
+          File Name:    csharpproj.html
+          Project Name: Website Project
+          Date Created: May-3-2022
+          Author:       Chris Seals
+          Description:  Page for .NET project I have done
+        -->
+
+        <title>.NET Projects</title>
+        <link href="../media/hash.svg" rel="icon">
 
         <meta charset="UTF-8">
         <meta name="keywords" content="Chris, Seals, Chris Seals, Resume">
-        <meta name="description" content="Resume for Chris Seals and project info">
+        <meta name="description" content="Information for Chris Seals' DOTNET projects">
         <meta name="author" content="Chris Seals">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
 
@@ -34,7 +43,7 @@
                     <ul class="dropdown-menu bg-dark">
                       <li><a class="dropdown-item text-white" href="webproj.html">Website Project</a></li>
                       <li><a class="dropdown-item text-white" href="javaproj.html">Java Game Project</a></li>
-                      <li><a class="dropdown-item text-white active" href="#">C# Projects</a></li>
+                      <li><a class="dropdown-item text-white active" href="#">.NET Projects</a></li>
                       <li><a class="dropdown-item text-white" href="thisSite.html">This Site</a></li>
                     </ul>
             </li>
@@ -47,6 +56,51 @@
 
         <div class="container-fluid p-5 text-center bg-dark text-white">
             <h1>DOTNET Projects</h1>
+            <p>
+              <br>
+              In my CSCI-2910 class we used the <b>.NET</b> 6.0 framework for the projects in that class. This class was about server-side programming so there was a lot of emphasis on interacting with databases through a <b>.NET</b> application and using the tools of <b>.NET</b> such as <b>NuGet</b>. I found that after working in <b>.NET</b> and the tools it offered I strongly preferred <b>C#</b> over <b>Java</b> for OOP.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item bg-dark text-white border-3">
+                The first project I would like to show is the ORM (Object Relational Mapper) that was a lab in my CSCI-2910 class. In this project we had to interact with a <b>SQLite</b> database to perform all CRUD operations with objects that I had made classes for in <b>.NET</b> application. This was supposed to model a library with books and rentals. We also had to make sure to use generics so that any object could be used with the Querybuilder class we created to perform each CRUD operation. This was done with the generic types in <b>C#</b> along with using an interface to get the Id of each entity.
+
+                <p class="text-start"><br>What was used for this lab:</p>
+                <ul>
+                  <li class="text-start text-info">C#, .NET 6.0</li>
+                  <li class="text-start text-info">NuGet for SQLite packages</li>
+                  <li class="text-start text-info">SQLite</li>
+                </ul>
+                <p>
+                  Here is a link to the gitub repo for the lab: 
+                  <a href="https://github.com/etsucs/lab-5-sqlite-database-and-querybuilder-using-generics-sealscm.git" class="link-info" target="_blank">SQLite Database Querybuilder</a>
+                </p>
+              </li>
+              
+              <li class="list-group-item bg-dark text-white border-3">
+                The next project from that class was a <b>JSON</b> and <b>Postman</b> lab were we had to interact with a Google API for the Google books library with <b>Postman</b>. Then after we recieve the <b>JSON</b> from interacting with the Google API we had to interact with this <b>JSON</b> by parsing it into <b>C#</b> objects and also parse <b>C#</b> objects into <b>JSON</b>. We had to do this with both the <b>JSON</b> converter included in the system libraries with <b>.NET</b> and the <b>Newtonsoft</b> package from <b>NuGet</b>. This was a good lab to show how you can interact with many different tools to get the results you need.
+
+                <p class="text-start"><br>What was used for this lab:</p>
+                <ul>
+                  <li class="text-start text-info">C#, .NET 6.0</li>
+                  <li class="text-start text-info">NuGet for Newtonsoft</li>
+                  <li class="text-start text-info">JSON</li>
+                  <li class="text-start text-info">Postman</li>
+                  <li class="text-start text-info">Google Books API</li>
+                </ul>
+                <p>
+                  Here is a link to the gitub repo for the lab: 
+                  <a href="https://github.com/etsucs/lab-7-json-and-postman-sealscm.git" class="link-info" target="_blank">Postman and JSON interations</a>
+                </p>
+              </li>
+              <li class="list-group-item bg-dark text-white border-3">
+                That's it for the .NET projects I wanted to show, but I have more planned in the future! I plan on trying out <b>Unity</b> in the Visual Studio environment to explore more tools and practice my skills. I will update this section when I have some progess on this!
+
+                <p class="text-start"><br>What I plan on using for this project:</p>
+                <ul>
+                  <li class="text-start text-info">Unity</li>
+                </ul>
+              </li>
+            </ul>
         </div>
         
         <div class="bg-dark text-white text-center">
