@@ -1,0 +1,14 @@
+/*
+    File Name:      style.css
+    Project Name:   Website Project
+    Date Created:   May-3-2022
+    Author:         Chris Seals
+    Description:    This is just some styling to override bootstrap styles the way I want it!
+*/
+
+.list-group
+{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
